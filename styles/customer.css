@@ -1,0 +1,24 @@
+.customer-article {
+  margin: 4em 6.2em 10em;
+}
+.customer-p {
+  font-size: 2.1em;
+  width: 26em;
+}
+.customer-card {
+  display: flex;
+  margin: 2em 0;
+}
+.customer-card img {
+  width: 6em;
+  border-radius: 10px;
+  margin: 0 1.5em 0 0;
+}
+.customer-id h3 {
+  font-size: 1.2em;
+  margin: 0.4em 0 0;
+}
+.customer-id h4 {
+  font-size: 0.9em;
+  margin: 1em 0 0 0;
+}

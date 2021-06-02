@@ -1,0 +1,67 @@
+header {
+  margin: 2.5em 2em;
+}
+.card-header {
+  width: 35%;
+  transform: translateX(15em);
+  margin: 5em 0 1em;
+}
+.header-article {
+  width: 50%;
+  transform: translateX(15em);
+  margin: 5em 0 1em;
+}
+.question {
+  color: #35bbff;
+  font-size: 0.8em;
+  margin: 0.8em 0;
+}
+.header-title1 {
+  font-size: 2.5em;
+  width: 100%;
+}
+.header-title2 {
+  font-size: 2.5em;
+  width: 55%;
+}
+.header-paragraph {
+  margin: 2em 0;
+  width: 50%;
+}
+.header-img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+label {
+  display: block;
+  color: #aaa;
+  font-size: 0.78em;
+}
+input[type=email] {
+  border: none;
+  background: #eee;
+  border-radius: 9px;
+  height: 3em;
+  width: 20.5em;
+  margin: 0.5em 0;
+  padding: 0 1.3em;
+}
+input[type=email]:focus {
+  outline: none;
+  border: 1px solid #aaa;
+}
+input[type=email]::placeholder {
+  color: #aaa;
+  font-size: 0.9em;
+}
+input[type=submit] {
+  border: none;
+  border-radius: 9px;
+  padding: 0.9em 1.7em;
+  background: #35bbff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8em;
+  transform: translateX(-5.95em) translateY(-0.1em);
+}

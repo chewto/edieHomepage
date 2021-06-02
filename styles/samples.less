@@ -1,0 +1,53 @@
+@questionColor: #35bbff;
+
+.samples-article{
+    margin: 2.5em 2em;
+}
+
+.samples-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.samples-title{
+    font-size: 1.6em;
+    width: 20%;
+    margin: 2em 3em;
+}
+
+.samples-card{
+    width: 35%;
+    margin: 0 2em;
+    img{
+        width: 100%;
+        border-radius:14px;  
+    }
+    h5{
+        font-size: .8em;
+        margin: .4em 0;    
+    }
+    h4{
+        font-size: 1.2em;
+    }
+}
+
+.samples-card:first-child{
+    margin: 10em 0 0;
+}
+
+.samples-card:nth-child(3){
+    margin: 10em 0 0;
+}
+
+.sample-link{
+    display: inline-block;
+    position: relative;
+    left: 75%;
+    text-decoration: none;
+    color: @questionColor;
+    font-size: 1.18em;
+    .arrow{
+        transform: translateY(.26em);
+    }
+}

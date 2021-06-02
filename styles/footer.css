@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #08001d;
+  height: 18em;
+}
+.links-div {
+  margin: 2em 0;
+}
+.links-div ul {
+  list-style: none;
+}
+.links-div li {
+  margin: 0.8em 0;
+}
+.links-div a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+}
+.social-media {
+  margin: 2em 0;
+}
+.social-media h2 {
+  color: #fff;
+  font-size: 1.7em;
+  margin: 0 0 0.1em 0;
+}
+.social-links a {
+  margin: 0;
+}
+.social-links a img {
+  width: 1.2em;
+  margin: 0 0.2em;
+}
+.footer-form {
+  margin: 2em 0;
+}
