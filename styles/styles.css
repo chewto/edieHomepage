@@ -421,7 +421,7 @@ input[type=submit] {
   }
   .toggle-btn {
     display: block;
-    position: absolute;
+    position: fixed;
     left: 25em;
     top: 1.4em;
     z-index: 200;
